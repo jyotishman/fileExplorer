@@ -1,0 +1,51 @@
+.folder-item-wrapper,
+.file-item-wrapper {
+  background-color: #ebebeb;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.file-item-wrapper,
+.folder-item-wrapper {
+  margin-bottom: 20px;
+}
+
+.folder-item-wrapper.active,
+.folder-item-wrapper.active .file-item-wrapper {
+  background-color: #f0f7ff;
+}
+
+.folder-item-wrapper img,
+.file-item-wrapper img {
+  max-width: 50px;
+}
+
+.folder-item-wrapper .heading {
+  display: flex;
+  align-items: center;
+}
+
+.folder-item-wrapper .content {
+  padding-left: 60px;
+}
+
+.file-item-wrapper {
+  cursor: auto;
+}
+
+.folder-item-wrapper .file-item-wrapper {
+  padding: 10px;
+  padding-left: 0;
+
+}
+
+.file-item-wrapper .file-contents {
+  display: flex;
+  align-items: center;
+}
+
+.popup-menu p {
+  display: block;
+  width: 100%;
+  margin: 8px;
+}
